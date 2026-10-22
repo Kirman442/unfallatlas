@@ -1,0 +1,695 @@
+{
+  "schema_version": 1,
+  "generation": "404fc8c681334561911392783520c8f2",
+  "sourceRevision": "5ed70e16b6be729d1676852122a5e3ee8ffe01cd",
+  "formats": [
+    "arrow"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 16,
+      "sha256": "39e4976d0efdb9c04d534b304c457f97120734804b1642ef9e03f24462de83e7"
+    },
+    {
+      "path": "netlify/data-index.js",
+      "bytes": 14843,
+      "sha256": "ddf9eaa9d5bee69a59355c74797ca22de7e90cf3838bd8d6472a20f3eaac5006"
+    },
+    {
+      "path": "netlify/edge-functions/data-encoding.js",
+      "bytes": 1089,
+      "sha256": "74539efe87039995fe67157c7ec01df09278fa4def602a23e6521976ff46c73b"
+    },
+    {
+      "path": "netlify.toml",
+      "bytes": 731,
+      "sha256": "98f51ddced9504c0f655f994f77dca3f4beac74258b43f4ec18bac565797171f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1019,
+      "sha256": "6798157c7ef30f49df84d9602a3cf6de0fa6ac82d28ce3115ab1836d1f8fb347"
+    },
+    {
+      "path": "scripts/verify-public.mjs",
+      "bytes": 1621,
+      "sha256": "142ea92bfcff69618961a10492afb40a8edf58c10761dd8129cc9f67773d824f"
+    },
+    {
+      "path": "site/accidents/analytics/fleet-history.json",
+      "bytes": 16734,
+      "sha256": "aef2a715d0040020efaf7a1cf73d2fc7e737275471d59385b900a819bafe147a"
+    },
+    {
+      "path": "site/accidents/analytics/overview.json",
+      "bytes": 26038,
+      "sha256": "685bdaf7cff3b679e6ea2ca9431ba1c47c798a7fb53ed98e07cc7aa726f724d5"
+    },
+    {
+      "path": "site/accidents/analytics/participants.json",
+      "bytes": 952516,
+      "sha256": "473dd4550cbba66a5e56277e7232947d0293c7171c8b98f433c66355aa5c0e5f"
+    },
+    {
+      "path": "site/accidents/analytics/population-history.json",
+      "bytes": 16410,
+      "sha256": "a81d52e0a1f92b396197e487a758f9273276a398358fb0264df2faae44074dd5"
+    },
+    {
+      "path": "site/accidents/analytics/regions-history.json",
+      "bytes": 291289,
+      "sha256": "b87f15441315583eb38a99d29412e26b2d7b7dd20cbb642abf7540289af0cd1b"
+    },
+    {
+      "path": "site/accidents/analytics/severity.json",
+      "bytes": 90864,
+      "sha256": "b0cde9ec9f0c31a1266697c8503924df76eb4d11d03b936ee05cf747b420e43e"
+    },
+    {
+      "path": "site/accidents/analytics/time.json",
+      "bytes": 383047,
+      "sha256": "c5a01b8f339da13e598a358e00c9b230e81636ad678012ecae57c1279704ed84"
+    },
+    {
+      "path": "site/accidents/app.html",
+      "bytes": 511,
+      "sha256": "3b0c398a9a938248ea6c4bf2656de2fbd20ddcd950b07a95385d0e343f1b9dcb"
+    },
+    {
+      "path": "site/accidents/assets/app-BTeRK8L6.js",
+      "bytes": 458052,
+      "sha256": "9f5e23bcc30479d8f687243a301408a58f1e4b929a4497640b086ecb3bf8e5ac"
+    },
+    {
+      "path": "site/accidents/assets/app-k418pZ_A.css",
+      "bytes": 48137,
+      "sha256": "c5dd371f9609fa8e1a9df2f0b4ab3acfbe08d3a4890b1bdeccaca79c3bb67c58"
+    },
+    {
+      "path": "site/accidents/assets/geography-data-BlrCDTX_.js",
+      "bytes": 2652,
+      "sha256": "44e3f13218f3861de718c5f4362652372ecef88c39b514d0f4a204d097451a1b"
+    },
+    {
+      "path": "site/accidents/assets/maplibre-gl-6cs9dBH-.js",
+      "bytes": 913817,
+      "sha256": "93b025f627634c609bbe03145c248cb38ffe6b5767431d713a51f3eac9710a8d"
+    },
+    {
+      "path": "site/accidents/assets/NativeChanges-DuVkkw7I.js",
+      "bytes": 11406,
+      "sha256": "53d44e9c16d760b44174b7b0480fb17012f871d80fdbc543c89b263b87b10658"
+    },
+    {
+      "path": "site/accidents/assets/NativeChanges-Jh3HdqOH.css",
+      "bytes": 5584,
+      "sha256": "750896119cf3da3d58723d48ac304d3524f55f5d0eadba7b5ad2243237f3153e"
+    },
+    {
+      "path": "site/accidents/assets/NativeMap-Aqk8yHRc.css",
+      "bytes": 94790,
+      "sha256": "35704eee81eb2d78472ff9e2727d658e4f2e4fb472cf6765af841e925b1ccf64"
+    },
+    {
+      "path": "site/accidents/assets/NativeMap-DkKbaPPm.js",
+      "bytes": 902822,
+      "sha256": "5b554467adfc34aed978ec0e612b087094fdc1be12bfb94ee3b19cfad7568180"
+    },
+    {
+      "path": "site/accidents/assets/NativeParticipants-Bc_x7gvQ.js",
+      "bytes": 20885,
+      "sha256": "2aeadad6a4c0c56c458e44ccf3b2c216168774873d8d468ea6ff098dd130444d"
+    },
+    {
+      "path": "site/accidents/assets/NativeParticipants-CTBvq5Q5.css",
+      "bytes": 8124,
+      "sha256": "5f548495a06aeda1198787f640a79970ac35a246683a563b996b0dda469287a0"
+    },
+    {
+      "path": "site/accidents/assets/NativeReference-BAW7OXo-.css",
+      "bytes": 1374,
+      "sha256": "5ec0d6dbc245742099ad4ae278a80ec5f9a109df5774407742082d0ac2153455"
+    },
+    {
+      "path": "site/accidents/assets/NativeReference-CnoPsXmC.js",
+      "bytes": 20530,
+      "sha256": "5fdb2f5918ba0feb8653ba1bda4ddb2746202d40c89477c8a6491b411b8ac2cd"
+    },
+    {
+      "path": "site/accidents/assets/NativeRegions-80xwLrB3.js",
+      "bytes": 15340,
+      "sha256": "a2213fd2d60998cf8dbd57b2d7c71121561e5d3624cf9c802a339b28677927e6"
+    },
+    {
+      "path": "site/accidents/assets/NativeRegions-DJ7EacRL.css",
+      "bytes": 5813,
+      "sha256": "9f9b6479b35bfa1144584c877cefada19fff60154f67dbc3b8d654cbbeace2ea"
+    },
+    {
+      "path": "site/accidents/assets/runtime.worker-DD8AzyMx.js",
+      "bytes": 176333,
+      "sha256": "9fa0443e4ab2514f9f6d8c4baf4dec0d89849f76cd57b10e1db707be19b7878e"
+    },
+    {
+      "path": "site/accidents/branding/uad-monogram-icon.svg",
+      "bytes": 249,
+      "sha256": "c6b4767afb79b97a9eeb931757072d428ed237e19bf7592674b1e5462c985af8"
+    },
+    {
+      "path": "site/accidents/geography/manifest.json",
+      "bytes": 756,
+      "sha256": "e10e24eb3cd417183cd45432c9c5dc856c3c87d7532134c0e1a1b676b889b47c"
+    },
+    {
+      "path": "site/accidents/geography/population-1ca764fa7f9d08e6.json",
+      "bytes": 53965,
+      "sha256": "1ca764fa7f9d08e6197701ace8a73be61fc54f0d0250e0330766d23dd791f45a"
+    },
+    {
+      "path": "site/accidents/geography/regions-2025/districts.json",
+      "bytes": 3099437,
+      "sha256": "ebf4a63f97903b882980be0d2e0880bed96bf35f93282b6e6760cabb9dec9353"
+    },
+    {
+      "path": "site/accidents/geography/regions-2025/states.json",
+      "bytes": 970912,
+      "sha256": "f27b756fd338ee0718eba42f8037f77a7fb818cbe308c5677c6a64b08376ea23"
+    },
+    {
+      "path": "site/accidents/geography/states-9ee4584be3abf0c7.json",
+      "bytes": 971440,
+      "sha256": "9ee4584be3abf0c722d33ee1811e19f6a6bfd0137714b2feb6005ad857f2ced0"
+    },
+    {
+      "path": "site/accidents/index.html",
+      "bytes": 511,
+      "sha256": "3b0c398a9a938248ea6c4bf2656de2fbd20ddcd950b07a95385d0e343f1b9dcb"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/analytics/accident_summaries.json",
+      "bytes": 246854,
+      "sha256": "ecca3fc2a98f565a3cedaa31b75b7b7f674b0c07ce9ffd4a9e62960860208320"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_01.arrow.br",
+      "bytes": 237445,
+      "sha256": "27ddeeb918a2bde043ec44d436f13d01723524ed80b7f7b1a4ed6239ed0610cf"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_02.arrow.br",
+      "bytes": 163475,
+      "sha256": "24348354ae6a68d29472407a2cd87a6e55929531ce9c77102093985f181a2981"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_03.arrow.br",
+      "bytes": 563840,
+      "sha256": "4dbb1337ce63472a7805f6040f96e2e240be20a0a13f923cbebf6cb44d30f458"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_04.arrow.br",
+      "bytes": 57295,
+      "sha256": "1dac9ba5124e65190acc29a798e4f2e2407f0babb54414fb39ec5d878a5ab533"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_05.arrow.br",
+      "bytes": 1130444,
+      "sha256": "da2157b168ad52ad05fa9bcd33fe43fe083aa3aa32142b9129facf06111fc6b9"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_06.arrow.br",
+      "bytes": 390020,
+      "sha256": "00db3e143263024ac2ef0eb825e8e065d4f87a084ee8783ec72c4618607b5ea1"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_07.arrow.br",
+      "bytes": 292317,
+      "sha256": "11548c0131bbc4a2266d6d1825c743db1075423a6b77015e2cf2bc850d03457a"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_08.arrow.br",
+      "bytes": 659812,
+      "sha256": "a8ce67a3428f1f8111bf0c074df9e1b75e7f996aa6e69dbde4b443af1da24b57"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_09.arrow.br",
+      "bytes": 928721,
+      "sha256": "a26b5ebb6fa38b8afa9d48bbb4b3298c839756439ec78d5fc04fbf9b4af86b9d"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_10.arrow.br",
+      "bytes": 76213,
+      "sha256": "86f84a0ff174305e893f7d0e924a0ce88d6e5b0fe004cb5895e25fb1d8b9e4b6"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_11.arrow.br",
+      "bytes": 243481,
+      "sha256": "d95928d91cef700d61df33ab13230a30776534365ab219d3783411dd7578627b"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_12.arrow.br",
+      "bytes": 203836,
+      "sha256": "d7e163cd29671d63ddc056faa3fde65dd8e1670bdc9d046fbe4c83521cf87153"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_13.arrow.br",
+      "bytes": 114317,
+      "sha256": "b3e79fb80f2dd9af241ac8ae1e5222167a7d3a53f5ce83c02021ebe68d926d83"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_14.arrow.br",
+      "bytes": 281233,
+      "sha256": "27f4ba734930f53adceccc1e346606d774820a9075ec759bed58566593ff98f9"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_15.arrow.br",
+      "bytes": 169646,
+      "sha256": "24aa2e26462da31deb4b12cc80b33406994f942d356020f6a15d88e39bc6444d"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2020/uland_16.arrow.br",
+      "bytes": 128570,
+      "sha256": "ed7cede03444694eb25b701fa3db2e0a629f24b5ac0b1886558df796fb090302"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_01.arrow.br",
+      "bytes": 244178,
+      "sha256": "01e213a27ef692cafd7cae3c2b93e85f4e096612c827cbf2a756f876cd0f5ca1"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_02.arrow.br",
+      "bytes": 165675,
+      "sha256": "26482908d18a708c0620c05333832cc3af28179f4c42287f6f825705e5f5e81d"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_03.arrow.br",
+      "bytes": 594384,
+      "sha256": "3f93328e65dc49bdb8fe9b2bbbaa5f9b8f9b40a24f767002b14d49c25579a215"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_04.arrow.br",
+      "bytes": 58699,
+      "sha256": "17509dd071dad99dd1c8ece6f4231d6f3e3bb8838067e2595bae6fffcc576357"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_05.arrow.br",
+      "bytes": 1075290,
+      "sha256": "1984433cce010f3617881936b27260e947cee757a0275ac546bcb7280e639c71"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_06.arrow.br",
+      "bytes": 398692,
+      "sha256": "69f1a6af3b0a107718621f350495b2cd9d6eea85ea03b61efe15adef8aa0a740"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_07.arrow.br",
+      "bytes": 290108,
+      "sha256": "25f3c0a6e8f1aa26ceb20e6d308f107d4bb87ade4c4e7408028204e46f0c53d2"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_08.arrow.br",
+      "bytes": 667885,
+      "sha256": "4be9f4214dbd4fc6d5dad909dfab7057953322ed0b48f818e865d55e1ab1d7e5"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_09.arrow.br",
+      "bytes": 970542,
+      "sha256": "63c22448e581f0526f007ddbe2649b507c2c905965f9316f12d2bbfdf0c85279"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_10.arrow.br",
+      "bytes": 77727,
+      "sha256": "b3dfeb6491678a14bd9fafc8601715f6421c47bae32aa78a74151a302c07b3fe"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_11.arrow.br",
+      "bytes": 240863,
+      "sha256": "6cbbdfd0e44637e2491802bfb1dfd060b634924e9411dbf32aa63636a6239cac"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_12.arrow.br",
+      "bytes": 217426,
+      "sha256": "8ead63f7835d2c382375b9fede523148de72b08215c1a1cc0005acf691887432"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_13.arrow.br",
+      "bytes": 117280,
+      "sha256": "cf259d837d39482dfe8a8b0a0e42db323ad4a0914960fa70ece088a19172f213"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_14.arrow.br",
+      "bytes": 274346,
+      "sha256": "01c9138a51b12149ba11e25930bca7fe3f3a98927731ae70607e9657397fd8e3"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_15.arrow.br",
+      "bytes": 168700,
+      "sha256": "f03a7c217682016bdc37876ef20b1d71a7ed5d9125df5bfd61922fdb58a6ac4c"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2021/uland_16.arrow.br",
+      "bytes": 123782,
+      "sha256": "d2048e580caadf9d05545dee7078c964bf81071016063a933480b321bacbff0d"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_01.arrow.br",
+      "bytes": 252300,
+      "sha256": "4f58831bb885f052d6597da078be549a0e00c753f77182186a332421a8ad2bf9"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_02.arrow.br",
+      "bytes": 193776,
+      "sha256": "d172b554f07bf17b92380e30e74c89499da4c39d225cac58b5d5fdf299d69d18"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_03.arrow.br",
+      "bytes": 633045,
+      "sha256": "7aa30f48d4b2684e774c41bf3b7324e8350418736d72223d7c563aab33bed958"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_04.arrow.br",
+      "bytes": 59917,
+      "sha256": "23d520bb9a774106ec6771a85e8ddeea543e62494a1a40ee31dad4c98c51e081"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_05.arrow.br",
+      "bytes": 1215268,
+      "sha256": "4a65249607577f3cb49a1f55df9b41319a9a7a0023d270347cb62d51f9af2174"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_06.arrow.br",
+      "bytes": 434343,
+      "sha256": "0cb34f6c630305a702a8ce32e17a5b8ff9ff85f1280733bde9878b12963447ca"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_07.arrow.br",
+      "bytes": 308731,
+      "sha256": "af1eb52de2036b3601ea1155e637e91ac7bc0595e7f241683dd34398699ab669"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_08.arrow.br",
+      "bytes": 716217,
+      "sha256": "57d6fe8e19c5f2413e29a2e48c63057efe3936b9a0d981322c1377669b018a01"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_09.arrow.br",
+      "bytes": 1014072,
+      "sha256": "dd27712e232aa7ddba93a7639778e69df41604b83263a5b69a788af4ada3af3c"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_10.arrow.br",
+      "bytes": 76963,
+      "sha256": "28d610b4689dc1cd6e0d1503801c8283e8efcc21700777f7543293aa32745ec1"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_11.arrow.br",
+      "bytes": 261487,
+      "sha256": "49aa00b68499afff0ca5aac120de1bafcbf75b014bc4cf2df974413e3d14cfbe"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_12.arrow.br",
+      "bytes": 215489,
+      "sha256": "7e0d59f977c392488ff5a29cfc749661b28ae13973fa151a63e13b8d8d5f377c"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_13.arrow.br",
+      "bytes": 122748,
+      "sha256": "97d0f6a886fbba0360af3e978b2dae597da1afd45275c16e67a0dd1f7a8e2327"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_14.arrow.br",
+      "bytes": 312112,
+      "sha256": "539895ba17f89b4a398a46a8af386c0029b63948405a80eba685bd70863c2715"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_15.arrow.br",
+      "bytes": 182809,
+      "sha256": "ee8b311bd48d8b64eb694d004612678927de8a908fd49436811d2671c271d88a"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2022/uland_16.arrow.br",
+      "bytes": 134925,
+      "sha256": "c5804c834d8ed46ec46e19d84ceb43ae091deec9e85a47929d2079f74f79f359"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_01.arrow.br",
+      "bytes": 266130,
+      "sha256": "c9823514d6fc8fa0b67aabde398710713cd15303d4f6692ab8ea57f33fa337c6"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_02.arrow.br",
+      "bytes": 184804,
+      "sha256": "4e5edc023d83a74d16fc815349206c9e05c7ee1c1eb01681587a8588e43aae29"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_03.arrow.br",
+      "bytes": 602076,
+      "sha256": "48f609b218aace58b20f741bc2b33dee0cd0aaa1a4f54b4e52b7a7aeb174813c"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_04.arrow.br",
+      "bytes": 61476,
+      "sha256": "fbf43c4eab1920d1dffb1a27c39cd8ac809a547087fbc5d0bc519cd05e87341a"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_05.arrow.br",
+      "bytes": 1250740,
+      "sha256": "234588a22b18a36db0a7acb10b6562cf1a2afc14e5241d186d4138fd2039b910"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_06.arrow.br",
+      "bytes": 428735,
+      "sha256": "77f24c24d7fd361c826b885fc22bc682202a7e553241afb355d526362a7f1314"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_07.arrow.br",
+      "bytes": 302835,
+      "sha256": "603d8a6b00787a71247452b36381d836421ed67dc1dbeb9c14fcfa740a517052"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_08.arrow.br",
+      "bytes": 694182,
+      "sha256": "27e2c38b7c601ebb93052acb77f5cc3a0eacde4ba13ba5be6f941f4392a56a50"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_09.arrow.br",
+      "bytes": 977394,
+      "sha256": "5cad7eb9d2dcea75a815d80acefb3197d085b9d92e9d0d8a2082fd4e4e825879"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_10.arrow.br",
+      "bytes": 76254,
+      "sha256": "2775731309ec6ba361eb26062caa3ea0f5cd97901ed1009444cfdc52a279e12d"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_11.arrow.br",
+      "bytes": 244793,
+      "sha256": "04b027229bcf1aa7e52df872cd2a63bd78c775292892700f758c68164eac527e"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_12.arrow.br",
+      "bytes": 211414,
+      "sha256": "7e748747a71045a795437d50c0cd6335981f71a98552084d8775a7ebbb37d2cb"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_13.arrow.br",
+      "bytes": 116637,
+      "sha256": "2d3c5b9e2f9ccfc2dbc9b7500d66ffe31bcf3b39f6e7aeaa49cf630864688ab2"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_14.arrow.br",
+      "bytes": 297902,
+      "sha256": "c3758fea122f63d328f51715bcc6966c6104aca0660ff99cab9b2fd428a5860f"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_15.arrow.br",
+      "bytes": 180283,
+      "sha256": "770c6e98dcaa8e82446f8cae80cf4684865e304800f78b02b001945a56150d94"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2023/uland_16.arrow.br",
+      "bytes": 133169,
+      "sha256": "8571daf5c9d69965c85632e3d24f23b54d3c80f64f1ff06a5febd78ff7cec383"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_01.arrow.br",
+      "bytes": 268034,
+      "sha256": "a0897a783703183c1965bcaaf2f86dcde73ffad7b0fb6c71e4be70385df8e223"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_02.arrow.br",
+      "bytes": 168983,
+      "sha256": "8b966d7851af650be6e6d4f4c9cf31095f50c8914ec9914f2a01886a48972f38"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_03.arrow.br",
+      "bytes": 598255,
+      "sha256": "39b727ffcb801bead426c13edcff6667c94b8a5e789caf79db43e9ab6d9ff14d"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_04.arrow.br",
+      "bytes": 59111,
+      "sha256": "86b9ecfbc51e8286aeb0d1f20c5265a808493b7e8680694ece2e7229ad0d9d76"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_05.arrow.br",
+      "bytes": 1264174,
+      "sha256": "9772391c52aa9e1a98c7828646d4be56e86108a245888d1b60649c83ec773491"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_06.arrow.br",
+      "bytes": 422110,
+      "sha256": "1f32402f2ef83ab8523b52c23b3cdd5902a98151db07ceb0f4799a49cbbad7bc"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_07.arrow.br",
+      "bytes": 297585,
+      "sha256": "547490d66ebca5324cbc3297c488f9776a8120e004661f1989ec43f693fb4cd2"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_08.arrow.br",
+      "bytes": 694304,
+      "sha256": "a6e24b5a89909cdcfb0439670d74d59f0c77453d18fc42592b966b6e9fba1400"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_09.arrow.br",
+      "bytes": 992512,
+      "sha256": "f48e90576aea0bccf63a711b41419dc1cf9cc41cf7927b83787b9a5092ebcb8c"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_10.arrow.br",
+      "bytes": 78147,
+      "sha256": "fb98f7e2a0db67d77464001541dc9404b193175442bbd9e4851ea30748c79ba9"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_11.arrow.br",
+      "bytes": 245707,
+      "sha256": "f4eb227a68a09337b4a4259b1fc54e8562cf8c55e46536b6e6afab4122dc14c7"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_12.arrow.br",
+      "bytes": 214646,
+      "sha256": "f0f47d0bea95b11393863c13bdfe18104a3e2edf4eeb74c1e02421f6b21d4c08"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_13.arrow.br",
+      "bytes": 115725,
+      "sha256": "e5b76533656d3960cfb6b687e59539876cf87129a1c991e0f6912cdc7ff77e48"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_14.arrow.br",
+      "bytes": 311293,
+      "sha256": "06c740bc3b9236a961e2a9079a0cc209c146495ff00854f0634f74a29b6676c7"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_15.arrow.br",
+      "bytes": 170294,
+      "sha256": "8c89f51c4ebd0dcc380aa79e9e499f8682ec5880100aefee0206738d7148b8e6"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2024/uland_16.arrow.br",
+      "bytes": 147118,
+      "sha256": "21693ae27d2b57f0631fa207660015a758681c1078d058a92ccfa42927a7c4ae"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_01.arrow.br",
+      "bytes": 276993,
+      "sha256": "155c2b52c6023a2c5c505aa0269f168c053329af1b5007ac14f96337403767f2"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_02.arrow.br",
+      "bytes": 183536,
+      "sha256": "8060b10718e83e4db2490a64a7a6385b4273e26b4552760b69b4c7dc6a3f4637"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_03.arrow.br",
+      "bytes": 599570,
+      "sha256": "f2986d19b2a82c34295f06850d00318b8bd805a35d46a61d3f77c0d11024dd9c"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_04.arrow.br",
+      "bytes": 62727,
+      "sha256": "bed03e384227577e056236531b4c413127a164ae19d070e348e5b593a2e85cc6"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_05.arrow.br",
+      "bytes": 1405330,
+      "sha256": "67b24ed53eb7858bf7b0cbbaa379d5d1c00d42a9bb7b784381f165ff84ed5057"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_06.arrow.br",
+      "bytes": 459803,
+      "sha256": "83bd6005d29b7034063c111c839f461d1c7bc64bd6c977e56a50e93c34253e3c"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_07.arrow.br",
+      "bytes": 341248,
+      "sha256": "672efaa5799b5bc072cf5adc7e4ad4edde3d74aef6ce3ef292267d6a782d6cf3"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_08.arrow.br",
+      "bytes": 753660,
+      "sha256": "8d8d01c165eae3023c18fd55482c5d5e0c952b486423aa8d9bd8b9284c2bc4c3"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_09.arrow.br",
+      "bytes": 1080520,
+      "sha256": "ee3f8e78f92c4865030b21c95c335dd7fb66eb046b99c630cd7e5cd71b454d6d"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_10.arrow.br",
+      "bytes": 87720,
+      "sha256": "fa87d083c41aea8216381840ec6bc90b62dc7c6b9c148a752b003b0ed22ec443"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_11.arrow.br",
+      "bytes": 292493,
+      "sha256": "e5761462a270749e304b5195eb6f6143574b11d35ef5a7ce270e4b033b8e39ff"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_12.arrow.br",
+      "bytes": 227920,
+      "sha256": "95229d2b9b0d91026f717527ad235df36bcb357fed38f67f2a0d13186c2f8219"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_13.arrow.br",
+      "bytes": 129270,
+      "sha256": "6b0c7e8e5e3bdbef9d19d9ba6e0daed67b0e25f8828e9d4e03f07298b1301a54"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_14.arrow.br",
+      "bytes": 321547,
+      "sha256": "dea95a87cf469f0335de7ba4ff7f1d6cc7f6a19d4b6126aee882f3d4b7e8db09"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_15.arrow.br",
+      "bytes": 196890,
+      "sha256": "5ebe87561d93dde67368a3c6b5339e4a07f411a73ee67281f614145a0b2da673"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/2025/uland_16.arrow.br",
+      "bytes": 147232,
+      "sha256": "f55c725434667b0fe2935525bd2cf7bece7e8faba8b199b3e5ad8599f6d57eaf"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/arrow/file/analytics/fleet_snapshots.arrow.br",
+      "bytes": 139503,
+      "sha256": "e98f27a80ade7a073a34bf938f97af824bcae9c3946cd0b1dc80837aef70b100"
+    },
+    {
+      "path": "site/accidents/__binary/404fc8c681334561911392783520c8f2/manifest.json",
+      "bytes": 195915,
+      "sha256": "cc958fad3e2d7951a31d580d33a042100fec0dd6a397610bc81b5864aaec44dc"
+    },
+    {
+      "path": "site/index.html",
+      "bytes": 225,
+      "sha256": "ea6914ae9f73c70c425228db37c0efb4c981ff82a9d1c1e3e87d5527a5afa0e6"
+    }
+  ]
+}
